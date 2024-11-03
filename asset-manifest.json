@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/innomatics-t7/static/css/main.d952c558.css",
+    "main.js": "/innomatics-t7/static/js/main.8748b729.js",
+    "static/js/453.c387467b.chunk.js": "/innomatics-t7/static/js/453.c387467b.chunk.js",
+    "index.html": "/innomatics-t7/index.html",
+    "main.d952c558.css.map": "/innomatics-t7/static/css/main.d952c558.css.map",
+    "main.8748b729.js.map": "/innomatics-t7/static/js/main.8748b729.js.map",
+    "453.c387467b.chunk.js.map": "/innomatics-t7/static/js/453.c387467b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d952c558.css",
+    "static/js/main.8748b729.js"
+  ]
+}
