@@ -1,0 +1,17 @@
+/* Books.css */
+.card {
+    display: flex;
+    flex-direction: column; /* Make the card a column flex container */
+    height: 100%; /* Ensure the card takes the full height of the column */
+}
+
+.card-body {
+    flex-grow: 1; /* Allow the body to grow and take available space */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+.card-title {
+    margin-bottom: 0; /* Remove default margin to avoid extra spacing */
+}

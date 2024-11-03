@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Light gray background for contrast */
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full height of the viewport */
+    padding: 20px;
+}
+
+.contact-us h1 {
+    margin-bottom: 30px; /* Increased margin for better spacing from the form */
+    color: #333; /* Dark gray for better readability */
+}
+
+.contact-form {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px; /* Increased padding for the form */
+    width: 100%;
+    max-width: 400px; /* Max width for larger screens */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Use gap to provide space between elements */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Keep label and input vertically aligned */
+}
+
+label {
+    margin-bottom: 8px; /* Slightly larger margin for labels */
+    color: #555; /* Slightly lighter gray for labels */
+    font-weight: bold; /* Bold labels for emphasis */
+}
+
+input,
+textarea {
+    width: 100%; /* Full width inputs */
+    padding: 12px 15px; /* Added horizontal padding for input fields */
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s; /* Smooth transition */
+}
+
+input:focus,
+textarea:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+textarea {
+    min-height: 100px; /* Minimum height for the textarea */
+    resize: none; /* Prevent resizing of the textarea */
+}
+
+.submit-button {
+    padding: 12px 15px; /* Padding for the button */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+    .contact-form {
+        padding: 20px; /* Adjust padding on small screens */
+    }
+
+    input,
+    textarea {
+        font-size: 14px; /* Slightly smaller font on small screens */
+    }
+
+    .submit-button {
+        font-size: 14px; /* Smaller button text */
+    }
+}
